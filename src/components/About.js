@@ -35,7 +35,7 @@ class About extends React.Component{
                     <div class_name='advisor_icon_text'>Manish Srivastava
                             <p style={{
                                 fontSize : '14px'
-                            }}>Assistant Proff. IIIT Hyderabad, Ph.D IIT Bombay</p>
+                            }}>Assistant Prof. IIIT Hyderabad,<br> Ph.D IIT Bombay</p>
                     </div>
                        </div>
                         </Col>
