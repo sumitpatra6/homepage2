@@ -94,6 +94,20 @@ a {
 .home-menu-text{
   bottom : 0px;
 }
+
+.advisor_icon{
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.advisor_icon_image{
+  height : 200px;
+  border-radius: 5px;
+}
+.advisor_icon_text{
+  bottom: 0px;
+}
  
 .links{
   text-decoration: none !important;
@@ -167,6 +181,10 @@ a {
     width: 100%;
     margin-left: 0px;
   } 
+  .advisor_icon{
+    width: 100%;
+    height: 200px;
+  }
 }
 
 

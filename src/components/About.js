@@ -1,5 +1,6 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap';
+import manishIcon from '../images/manishIcon.jpg';
 class About extends React.Component{
     render(){
         return(
@@ -7,7 +8,7 @@ class About extends React.Component{
                 <Container>
                     <Row>
                         <Col lg={6} md={6} sm={12}>
-                            About Us
+                           <h1> About Us </h1>
                         </Col>
                         <Col lg={6} md={6} sm={12}>
                         <p>
@@ -23,6 +24,20 @@ class About extends React.Component{
                         models performance almost instantly helping you to commercialise your 
                         product quickly. Get in touch with us for all your data labelling requirements. Let us worry about the data and you can focus on building amazing applications using it.
                         </p>
+                        <h1>Our Advisor</h1>
+                        <div className='advisor_icon'>
+                        <div className='advisor_icon_image'
+                            style={{
+                                backgroundImage : `url(${manishIcon})`
+                            }}
+                        >
+                        </div>
+                    <div class_name='advisor_icon_text'>Manish Srivastava
+                            <p style={{
+                                fontSize : '14px'
+                            }}>Assistant Proff. IIIT Hyderabad, Ph.D IIT Bombay</p>
+                    </div>
+                       </div>
                         </Col>
                     </Row>
                 </Container>
