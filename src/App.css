@@ -161,11 +161,11 @@ a {
 
 @media screen and (min-width : 0px) and (max-width : 411px){
  .container{
-    margin-left: 5px;
+    margin: 5px;
   }
 .home-menu-card{
     width: 100%;
-    margin: 0px;
+    margin-left: 0px;
   } 
 }
 
