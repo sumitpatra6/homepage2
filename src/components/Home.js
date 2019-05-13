@@ -32,7 +32,7 @@ class Home extends React.Component{
                         'border-top' : '2px solid #8cf442',
                         backgroundImage : `url(${speechtotext})`
                     }}>
-                    <div className='home-menu-text'>Speech To Text</div>
+                    <div className='home-menu-text'>Speech</div>
                     &nbsp;
                        &nbsp;
                     <span>&rarr;</span>
@@ -43,7 +43,7 @@ class Home extends React.Component{
                         'border-top' : '2px solid #d3f9b8',
                         backgroundImage : `url(${language})`
                     }}>
-                       <div className='home-menu-text'>Language Transcription</div>
+                       <div className='home-menu-text'>Language</div>
                        &nbsp;
                        &nbsp;
                     <span>&rarr;</span> 
@@ -55,7 +55,7 @@ class Home extends React.Component{
                         'border-top' : '2px solid #f8f9f7',
                         backgroundImage : `url(${computervision})`
                     }}>
-                      <div className='home-menu-text'>Computer Vision</div>
+                      <div className='home-menu-text'>Vision</div>
                       &nbsp;
                       &nbsp;
                     <span>&rarr;</span>  
