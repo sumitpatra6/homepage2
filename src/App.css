@@ -1,33 +1,172 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Roboto Slab', serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  text-decoration: none;
+}
+
+
+.container{
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+.navbarIcon{
+  height : 40px;
+}
+
+.homepage{
+  height: 100vh;
+  width: 100%;
+}
+
+.home-icon-container{
+  width: 100%;
+  height: 60vh;
+  float: left;
+  margin-top: 10%;
+  position: relative;
+}
+
+.home-icon-container div{
+  bottom: 0px;
+}
+.home-menu-container{
+  width:100%;
+  float: left;
+  
+}
+
+@keyframes fade-in {
+  from {opacity: 0; transform: scale(.7,.7)}
+  to {opacity: 1;}
+}
+
+.home-menu-card{
+  height: 300px;
+  width: 350px;
+  background-color: #101117 !important;
+  float: left;
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30% 30%;
+  animation: fade-in 1.4s;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-end;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: background-size 0.5s; /* Safari */
+  transition: background-size 0.5s;
+}
+
+.home-menu-card span{
+  float: right;
+  display: none;
+  transition : diplay 0.5s;
+}
+
+.home-menu-card:hover{
+  background-size: 40% 40%;
+}
+.home-menu-card:hover span{
+  display: block;
+}
+
+.home-menu-text{
+  bottom : 0px;
+}
+ 
+.links{
+  text-decoration: none !important;
+  color : white;
+}
+
+.links:hover{
+  text-decoration: none !important;
+  color : white;
+}
+
+.about{
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 25px; 
+  animation: fade-in 1.4s;
+}
+.contact{
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 15px;
+  animation: fade-in 1.4s;
+
+}
+.contact input,
+.contact textarea{
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  background-color: #101117;
+  margin-top: 20px;
+  padding: 5px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact button{
+  border: 1px solid white;
+ background: #101117;
+ color: white;
+ box-shadow: none;
+ border-radius: 0px;
+ padding: 10px;
+ margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact button:hover{
+  background-color: white;
+  color: black;
 }
+
+.contact input:hover{
+  border-color: #8cf442;
+}
+.contact textarea:hover{
+  border-color: #8cf442;
+}
+
+.vision .description{
+  font-size: 15px;
+}
+
+.vision .subHeader{
+  font-size: 20px;
+}
+
+@media screen and (min-width : 0px) and (max-width : 411px){
+ .container{
+    margin-left: 5px;
+  }
+.home-menu-card{
+    width: 100%;
+    margin: 0px;
+  } 
+}
+
+
