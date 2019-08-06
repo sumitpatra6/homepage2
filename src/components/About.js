@@ -15,7 +15,7 @@ class About extends React.Component{
                         As they say, in todays world 'Data' is the most powerful asset.
                         </p>
                         <p>
-                        icharj.ai enables you to empower your Machine Learning algorithms by 
+                        ichraj.ai enables you to empower your Machine Learning algorithms by 
                         providing accurately 
                         annotated data at affordable prices.
                         </p>
